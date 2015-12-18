@@ -53,6 +53,6 @@ export class ListPage {
   }
 
   viewItem(item){
-  //  this.nav.push(ItemDetailPage, {item: item });
+   this.nav.push(ItemDetailPage, {item: item });
   }
 }
