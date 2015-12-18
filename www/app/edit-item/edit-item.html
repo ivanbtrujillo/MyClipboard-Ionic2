@@ -1,0 +1,21 @@
+<ion-navbar *navbar>
+  <ion-title>
+    Edit
+  </ion-title>
+</ion-navbar>
+
+<ion-content>
+  <ion-list>
+  <form [ngFormModel]="itemForm" (submit)="update($event)">
+    <ion-input floating-label>
+      <ion-label>Title</ion-label>
+      <input type="text" ngControl="title" />
+    </ion-input>
+    <ion-input floating-label>
+      <ion-label>Description</ion-label>
+      <textarea ngControl="description" ></textarea>
+    </ion-input>
+    <button fab fab-right fab-bottom type="submit" ><icon checkmark></icon></button>
+  </form>
+  </ion-list>
+</ion-content>

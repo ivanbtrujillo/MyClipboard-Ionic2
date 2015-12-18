@@ -1,0 +1,23 @@
+<ion-navbar *navbar >
+  <button menuToggle>
+    <icon menu></icon>
+  </button>
+  <ion-title>
+    My Clipboard
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="background">
+  <ion-list>
+    <ion-item-sliding class="item-sliding" *ngFor="#item of items"  (click)="viewItem(item)">
+      <ion-item class="item-list">
+        {{item.title}}
+      </ion-item>
+      <ion-item-options>
+        <button primary (click)="editItem(item)"><icon create></icon>Edit</button>
+        <button danger (click)="removeItem(item)"><icon trash></icon> Delete</button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
+<button primary fab fab-right fab-bottom (click)="addItem()"><icon add></icon></button>

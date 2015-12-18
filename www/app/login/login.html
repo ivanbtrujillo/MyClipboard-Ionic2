@@ -1,0 +1,29 @@
+
+
+<ion-content class="access-page" >
+
+  <ion-list>
+    <div class="logo">
+        <img src="img/appicon.svg">
+    </div>
+
+    <ion-input floating-label>
+      <ion-label primary>Email</ion-label>
+      <input type="text">
+    </ion-input>
+
+    <ion-input floating-label>
+      <ion-label primary>Password</ion-label>
+      <input type="password">
+    </ion-input>
+
+
+    <ion-item>
+      <button (click)="login()" primary block >Login</button>
+    </ion-item>
+
+    <ion-item style="border-bottom: none">
+        <button (click)="register()" light block > Register</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

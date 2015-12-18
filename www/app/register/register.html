@@ -1,0 +1,34 @@
+
+<ion-navbar *navbar>
+  <ion-title>Register</ion-title>
+</ion-navbar>
+
+<ion-content>
+
+  <ion-list class="access-page">
+    <div class="logo">
+        <img src="img/appicon.svg">
+    </div>
+
+    <ion-input floating-label>
+      <ion-label primary>Email</ion-label>
+      <input type="email">
+    </ion-input>
+
+    <ion-input floating-label>
+      <ion-label primary>Password</ion-label>
+      <input type="password">
+    </ion-input>
+
+    <ion-row responsive-sm>
+      <ion-col>
+        <button (click)="register()" primary block>Register</button>
+      </ion-col>
+    </ion-row>
+  </ion-list>
+
+  <ion-checkbox primary>
+    Accept <a>terms & conditions</a>
+  </ion-checkbox>
+
+</ion-content>
