@@ -13,6 +13,13 @@ It's a continuation of the todo app by @joshmorony. Many thanks to him for his w
 * ion-item-sliding with delete and edit buttons
 * an service (@Injectable()) to store the data on localStorage
 
+ScreenShots
+![Alt text](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202015-12-18%20a%20las%2019.31.00.png "Main")
+![Alt text](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202015-12-18%20a%20las%2019.30.21.png "Form")
+![Alt text](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202015-12-18%20a%20las%2019.30.51.png "Options")
+
+
+
 ### Ionic info:
 
 Cordova CLI: 5.4.1
